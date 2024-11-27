@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"
-    <title>template document</title>
-   </head>
-   <body>   
-   </body>
-</html>
+* {
+  padding: 0;
+  margin: 0;
+}
+
