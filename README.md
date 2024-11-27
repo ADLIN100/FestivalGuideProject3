@@ -1,6 +1,6 @@
 # FestivalGuideProject3
 
-  December 2, 2024
+  December 8-10, 2024
 
   by: Adwin Lin
 
@@ -8,28 +8,36 @@
 
 # project overview
 
-For Project 3, I chosen my festival is an interactive event called the “Inspiring Asian Athletes Fest,” a three-day sports event celebrating Asian American athletes from various colleges. 
-The event is for sports fans, college students, and supporters of Asian American representation in athletics, the guide provides essential information about event schedules, guest spaker of athletes, and venue details for attendees navigating the showcase at Chase Center and Oracle Park. 
-By combining comprehensive event information with a visually dynamic layout, the guide creates an engaging and accessible experience that enhances audience connection to the event and its mission.
+The Inspiring Asian Athletes Fest is a three-day interactive event that celebrates the talent and achievements of Asian American college athletes. Hosted at the iconic Chase Center and Oracle Park, this festival brings together sports fans, college students, and supporters of Asian American representation in athletics for a dynamic and engaging experience. The event features a diverse range of sports, like basketball, soccer,football, etc. Attendees will enjoy a packed schedule of competitions, guest speakers, and special ceremonies, such as awards. This festival not only highlights athletic excellence but also fosters pride, unity, and a deeper connection within the Asian American community. By shining a spotlight on underrepresented athletes, the event empowers future generations and celebrates values like perseverance, teamwork, and cultural pride.
 
-The purpose of this festival is to foster a sense of community and pride by spotlighting the athletic achievements of Asian American college athletes. 
-In an industry where Asian American athletes are often underrepresented, this event serves as an empowering platform that encourages young athletes and inspires pride among community members. 
-The event aims to capture the excitement and energy of a live sports event while remaining accessible and easy to navigate of having a joyful time for everyone.
+### Purpose:
+The Inspiring Asian Athletes Fest serves as:
 
-The festival of the scheduled is during December 8th-10th, the festival brings together a range of sports including basketball, baseball, volleyball, track & field, soccer, and football highlighting the diversity of talents within the Asian American athletic community. 
-This project not only showcases the athleticism and dedication of these athletes but also reinforces the importance of unity and perseverance, values that resonate with the event's theme and mission. 
-By merging visually engaging elements with essential information, this event represents a celebration of community in Asian American athletes of awards ceremony and cultural pride within the context of sports.
+A celebration of diversity and achievement: Showcasing the incredible athleticism of Asian American college athletes.
+An inspiration for the future: Encouraging young athletes to embrace their potential and build confidence.
+A bridge for community pride: Creating an fun, safe inclusive and supportive environment that strengthens bonds within the Asian American community.
+
+### Event Highlights
+
+Dates: December 8–10, 2024
+
+Location: Chase Center and Oracle Park (San Francisco)
+
+Sports Activities: Basketball, baseball, volleyball, track & field, soccer, and football
+
+Special Features: Guest speakers, awards ceremonies (red carpet), and explore the shop
 
 # Figma Wireframe Link
 https://www.figma.com/design/G0XLULTw7dSQvt4ur28gyb/DES-228%3A-Festival-Guide---High-Fidelity-Wireframe?node-id=0-1&node-type=canvas&t=PEHDbSrIZy1XpgAT-0
 
 # technical overview 
 
-I decided to use the font style Bebas Neue (Regular)
+Design elements
+-  Font Style: Tex Gyre Termes, Touvlo, Bebas Neue (Naviagator), Urbanist (Bold or regular)
 
 Languages Used:
 
-- HTML: Structure of the website and the placement of the text
+- HTML: Structure the website content and layout placement of the text
 - CSS: Styling for colors, fonts, animations, and layout of the text and background
 
 Animations & Transitions:
