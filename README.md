@@ -41,8 +41,10 @@ Software Utilized:
 - Visual Studio Code: Used as the primary editor for writing HTML and CSS
 - GitHub Pages: Used as the hosting platform to showcase the final website live
 
+Assets: 
 
-
+![Assets](img/DES%20228%20-%20Draft%20Physical%20Asset%20Design.jpg)
+![Assets](img/DES%20228%20T%20shirt%20mock%20up.jpg)
 
 # acknowledgment
 
