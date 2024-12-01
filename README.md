@@ -8,13 +8,16 @@
 
 # project overview
 
-The Inspiring Asian Athletes Fest is a three-day interactive event that celebrates the talent and achievements of Asian American college athletes. Hosted at the iconic Chase Center and Oracle Park, this festival brings together sports fans, college students, and supporters of Asian American representation in athletics for a dynamic and engaging experience. The event features a diverse range of sports, like basketball, soccer,football, etc. Attendees will enjoy a packed schedule of competitions, guest speakers, and special ceremonies, such as awards. This festival not only highlights athletic excellence but also fosters pride, unity, and a deeper connection within the Asian American community. By shining a spotlight on underrepresented athletes, the event empowers future generations and celebrates values like perseverance, teamwork, and cultural pride.
+The Inspiring Asian Athletes Fest is a three-day interactive event that celebrates the talent and achievements of Asian American college athletes. Hosted at the iconic Chase Center and Oracle Park, this festival brings together sports fans, college students, and supporters of Asian American representation in athletics for a dynamic and engaging experience. The event features a diverse range of sports, like basketball, soccer, football, etc. Attendees will enjoy a packed schedule of competitions, guest speakers, and special ceremonies, such as awards. This festival not only highlights athletic excellence but also fosters pride, unity, and a deeper connection within the Asian American community. By shining a spotlight on underrepresented athletes, the event empowers future generations and celebrates values like perseverance, teamwork, and cultural pride.
 
 ### Purpose:
 The Inspiring Asian Athletes Fest serves as:
 
-A celebration of diversity and achievement: Showcasing the incredible athleticism of Asian American college athletes.
+A celebration of diversity and achievement: 
+Showcasing the incredible athleticism of Asian American college athletes.
+
 An inspiration for the future: Encouraging young athletes to embrace their potential and build confidence.
+
 A bridge for community pride: Creating an fun, safe inclusive and supportive environment that strengthens bonds within the Asian American community.
 
 ### Event Highlights
@@ -56,7 +59,7 @@ Assets:
 
 # acknowledgment
 
-these are the resources I have so far in Figma: 
+Inspiration and resources from: 
 
 https://www.instagram.com/amaznhq
 
