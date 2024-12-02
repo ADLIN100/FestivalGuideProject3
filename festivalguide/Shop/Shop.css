@@ -53,14 +53,14 @@ nav a:hover {
 
 .footer {
     
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    color: #B49974;
     display: block;
-
-    font-family: "Kanit", sans-serif;
-    margin-top: 10px;
-    font-weight: 600;
-    color: black;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-
 }

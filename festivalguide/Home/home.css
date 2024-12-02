@@ -1,66 +1,76 @@
 * {
-   padding: 0;
-   margin: 0;
-
-   text-decoration: none;
-}
- 
- body {
-
-       background: #EBC683;
-
-}
-
-nav {
-
-    font-family: "Kanit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
- 
-    word-spacing: 150px;
- 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 30px;
- 
-    color: #B6D8EB;
-    text-align: center;
- 
-    text-transform: uppercase;
-    border-color: blue;
-    border-style: solid 1px;
-}
-
-nav a {
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 0;
+    margin: 0;
+  
     text-decoration: none;
-    font-weight: bold;
-    color: lightcoral;
-    background-color: peachpuff;
-    border: 2px solid burlywood;
-    margin: 0 15px;
-    text-transform: uppercase;
+  }
+   
+   body {
+  
+      background: #EBC683;
+  
+  }
+  
+  nav {
+  
+     font-family: "Urbanist", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     font-size: 20px;   
+     word-spacing: 150px;
+   
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 20px;
+      padding-left: 30px;
+   
+      color: #B6D8EB;
+      text-align: center;
+   
+      text-transform: uppercase;
+      border-color: blue;
+      border-style: solid 1px;
+  }
+  
+  nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      color: lightcoral;
+      background-color: peachpuff;
+      border: 2px solid burlywood;
+      margin: 0 15px;
+      text-transform: uppercase;
+  }
+  
+  nav a:hover {
+      background-color: burlywood;
+      color: whitesmoke;
+  }
+  
+.image-container img {
+    width: 100;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
 }
 
-nav a:hover {
-    background-color: burlywood;
-    color: whitesmoke;
+.image-container img:hover {
+    opacity: 1;
 }
 
 .footer {
     
-    display: block;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 
-    font-family: "Kanit", sans-serif;
-    margin-top: 10px;
-    font-weight: 600;
-    color: black;
+    color: #B49974;
+    display: block;
     font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
-
-}
+    word-spacing: 5px;
+  }
