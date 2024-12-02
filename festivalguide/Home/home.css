@@ -49,15 +49,32 @@
       background-color: burlywood;
       color: whitesmoke;
   }
-  
-.image-container img {
+
+.logo img {
+    width: 100;
+    height: auto;
+    height: 50%;
+    width: 50%;
+
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;      
+
+}
+
+.sports_image img {
     width: 100;
     height: auto;
     opacity: 0.7;
     transition: opacity 0.3s ease;
 }
 
-.image-container img:hover {
+.sports_image img:hover {
     opacity: 1;
 }
 
