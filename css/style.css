@@ -13,7 +13,7 @@
 
 nav {
 
-    font-family: "Kanit", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -26,12 +26,13 @@ nav {
     padding-right: 20px;
     padding-left: 30px;
  
-    color: #B6D8EB;
     text-align: center;
  
     text-transform: uppercase;
-    border-color: blue;
     border-style: solid 1px;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #B49974;
 }
 
 nav a {
@@ -39,11 +40,14 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: lightcoral;
+    color: #E63B35;
     background-color: peachpuff;
     border: 2px solid burlywood;
     margin: 0 15px;
     text-transform: uppercase;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 nav a:hover {
@@ -52,20 +56,10 @@ nav a:hover {
 }
 
 .logo {
-    width: 100;
-    height: auto;
-    height: 50%;
-    width: 50%;
-
-    padding-top: 30px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 30px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;      
-
+    position: absolute;
+    top: 10%; 
+    left: 20%; 
+    right: 20%;
 }
 
 .footer {
@@ -75,9 +69,33 @@ nav a:hover {
     font-weight: weight;
     font-style: normal;
     
-    color: #B49974;
-    display: block;
+    color: #E63B35;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
+ 
+    word-spacing: 179px;
+    margin-top: auto;
+}
+
+footer { 
+    padding-top: 35%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+h1 { 
+    padding-top: 5%;
+    text-align: center; 
+    color: #E63B35;
+    font-size: 75px;
+}
+
+
+img { 
+    display: block;
+    justify-content: center;
+    padding-left: 15%;
+    padding-top: 20%;
+    
 }
