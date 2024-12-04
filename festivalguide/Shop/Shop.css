@@ -13,7 +13,7 @@
 
 nav {
 
-    font-family: "Kanit", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -26,12 +26,13 @@ nav {
     padding-right: 20px;
     padding-left: 30px;
  
-    color: #B6D8EB;
     text-align: center;
  
     text-transform: uppercase;
-    border-color: blue;
     border-style: solid 1px;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #EBC683;
 }
 
 nav a {
@@ -39,16 +40,20 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: lightcoral;
+    color: #E63B35;
     background-color: peachpuff;
     border: 2px solid burlywood;
     margin: 0 15px;
     text-transform: uppercase;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 nav a:hover {
     background-color: burlywood;
     color: whitesmoke;
+    transition: all 0.3s ease;
 }
 
 .logo {

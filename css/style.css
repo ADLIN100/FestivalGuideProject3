@@ -7,7 +7,7 @@
  
  body {
 
-    background: #EBC683;
+    background: #B49974;
 
 }
 
@@ -32,7 +32,7 @@ nav {
     border-style: solid 1px;
 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    background-color: #B49974;
+    background-color: #EBC683;
 }
 
 nav a {
@@ -99,8 +99,8 @@ footer {
 img { 
     display: block;
     justify-content: center;
-    padding-left: 15%;
-    padding-top: 28%;
+    padding-left: 13%;
+    padding-top: 24%;
     padding-bottom: 15%;
     
 }
