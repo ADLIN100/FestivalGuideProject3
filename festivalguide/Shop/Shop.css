@@ -75,14 +75,22 @@ nav a:hover {
 
 .footer {
     
+    color: #E63B35;
+}
+
+footer { 
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     
-    color: #B49974;
-    display: block;
-    font-size: 20px;
+    padding-top: 485px;
+    color: #E63B35;
     text-align: center;
-    text-transform: uppercase;
+    word-spacing: 50px;
+    font-size: 32px;
+}
+
+img {
+    display: block; 
 }
