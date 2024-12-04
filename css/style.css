@@ -53,7 +53,23 @@ nav a {
 nav a:hover {
     background-color: burlywood;
     color: whitesmoke;
+    transition: all 0.3s ease;
+
 }
+
+h1 { 
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    
+    padding-top: 5%;
+    text-align: center; 
+    color: #E63B35;
+    font-size: 75px;
+}
+
 
 .logo {
     position: absolute;
@@ -64,38 +80,27 @@ nav a:hover {
 
 .footer {
     
+    color: #E63B35;
+}
+
+footer { 
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     
+    padding-top: 485px;
     color: #E63B35;
-    font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
- 
-    word-spacing: 179px;
-    margin-top: auto;
+    word-spacing: 50px;
+    font-size: 32px;
 }
-
-footer { 
-    padding-top: 35%;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-h1 { 
-    padding-top: 5%;
-    text-align: center; 
-    color: #E63B35;
-    font-size: 75px;
-}
-
 
 img { 
     display: block;
     justify-content: center;
     padding-left: 15%;
-    padding-top: 20%;
+    padding-top: 28%;
+    padding-bottom: 15%;
     
 }
