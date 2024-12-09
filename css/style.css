@@ -12,24 +12,22 @@
 }
 
 nav {
-
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
- 
-    word-spacing: 150px;
- 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 30px;
- 
+    
+    word-spacing: 130px;
+  
     text-align: center;
- 
+  
     text-transform: uppercase;
     border-style: solid 1px;
+
+	width: 40%;
+    padding-right: 5%;
+	padding-bottom: 2%;
 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     background-color: #EBC683;
@@ -57,6 +55,10 @@ nav a:hover {
 
 }
 
+
+
+
+
 h1 { 
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
@@ -78,9 +80,21 @@ h1 {
     right: 20%;
 }
 
+.sports_image img {
+    width: 200;
+    height: auto;
+    opacity: 10;
+    transition: opacity 3s ease-in
+}
+
+.sports_image img:hover {
+    opacity: 2;
+}
+
+
 .footer {
     
-    color: #E63B35;
+    color: darkred;
 }
 
 footer { 
@@ -90,7 +104,7 @@ footer {
     font-style: normal;
     
     padding-top: 485px;
-    color: #E63B35;
+    color: darkred;
     text-align: center;
     word-spacing: 50px;
     font-size: 32px;
