@@ -1,85 +1,108 @@
 * {
-   padding: 0;
-   margin: 0;
-   
-   text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
- 
- body {
 
-       background: #EBC683;
-
+body {
+    background: #EBC683;
+    font-family: 'Tourney', sans-serif;
 }
 
 header {
-    background: peachpuff;
-    padding: 20px 390px;
+    background: darkred;
+    padding: 40px 390;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
- display: flex;
- justify-content: space-between;
- align-items: center; 
- width: 90%; 
- margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .logo img {
- height: 110px; 
- width: auto;
- padding-top: 5%;
- padding-left: 5%;
+    height: 110px;
+    width: auto;
 }
 
 .nav-links {
- display: flex; 
- gap: 95px;
+    display: flex;
+    gap: 30px;
 }
 
 .nav-links a {
- font-family: "Tourney", serif;
- font-size: 20px;
- font-weight: bold;
- color: #E63B35;
- padding: 10px 15px;
- border: 2px solid burlywood;
- border-radius: 10px;
- background-color: peachpuff;
- text-transform: uppercase;
- box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
- transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: peachpuff;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-links a:hover {
- background-color: burlywood;
- color: whitesmoke;
+    background-color: burlywood;
+    color: #E63B35;
 }
 
-.logo {
-    width: 100;
+.shop-intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.shop-intro h1 {
+    font-size: 4rem;
+    color: #E63B35;
+}
+
+.shop-intro h2 {
+    font-size: 2rem;
+    color: #444;
+}
+
+.shop-products {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 10%;
+}
+
+.product {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
     height: auto;
-    height: 50%;
-    width: 50%;
-
-    padding-top: 30px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 30px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;      
-
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-img {
-    display: block; 
+.product p {
+    margin: 5px 0;
+    color: #444;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #E63B35;
+    font-weight: bold;
 }
 
 .footer {
     
-    color: darkred;
+    color: white;
 }
 
 footer { 
@@ -88,8 +111,8 @@ footer {
     font-weight: 300 weight;
     font-style: normal;
     
-    background-color: white;
-    color: darkred;
+    background-color: darkred;
+    color: white;
     width: 100dvw;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -102,3 +125,5 @@ footer {
     flex-wrap: wrap;
     text-align: center;
 }
+
+
