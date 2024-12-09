@@ -23,6 +23,14 @@ header {
     margin: 0 auto;
 }
 
+.shop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .logo img {
     height: 110px;
     width: auto;
