@@ -11,67 +11,70 @@
 
 }
 
-nav {
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+header {
+       background: darkred;
+       padding: 40px 390px;
+       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%; 
+    margin: 0 auto; 
+  }
+  
+  .logo img {
+    height: 110px; 
+    width: auto;
+    margin-top: -33%;
+    margin-left: -35%;
+  
+  }
+  
+  .nav-links {
+    display: flex; 
+    gap: 95px;
+  }
+  
+  .nav-links a {
+    font-family: "Tourney", serif;
     font-size: 20px;
-    
-    word-spacing: 130px;
-  
-    text-align: center;
-  
-    text-transform: uppercase;
-    border-style: solid 1px;
-
-	width: 40%;
-    padding-right: 5%;
-	padding-bottom: 2%;
-
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    background-color: #EBC683;
-}
-
-nav a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
     font-weight: bold;
-    color: #E63B35;
-    background-color: peachpuff;
+    color: black;
+    padding: 10px 15px;
     border: 2px solid burlywood;
-    margin: 0 15px;
-    text-transform: uppercase;
-
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-}
-
-nav a:hover {
+    background-color: peachpuff;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
     background-color: burlywood;
-    color: whitesmoke;
-    transition: all 0.3s ease;
-
-}
-
-
-
+    color:#E63B35;
+  }
 
 
 h1 { 
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
+    font-family: "Tourney", serif;  
+    font-weight: 300 weight;
     font-style: normal;
-
-    
-    padding-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 25%;
     text-align: center; 
-    color: #E63B35;
+    color: darkred;
     font-size: 75px;
 }
 
+h3 { 
+  font-family: "Tourney", serif;  
+  font-weight: 300 weight;
+  font-style: normal;
+  color: darkred;
+}
 
 .logo {
     position: absolute;
@@ -88,26 +91,34 @@ h1 {
 }
 
 .sports_image img:hover {
-    opacity: 2;
+    opacity: 50;
 }
 
 
 .footer {
     
-    color: darkred;
+    color: white;
 }
 
 footer { 
-    font-family: "Urbanist", sans-serif;
+    font-family: "Tourney", serif;  
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 300 weight;
     font-style: normal;
     
-    padding-top: 485px;
-    color: darkred;
+    background-color: darkred;
+    color: white;
+    width: 100dvw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    word-spacing: 5px;
+    font-size: 25px;
     text-align: center;
-    word-spacing: 50px;
-    font-size: 32px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 img { 
