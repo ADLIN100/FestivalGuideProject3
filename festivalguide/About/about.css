@@ -113,7 +113,7 @@ p {
 
 .footer {
     
-    color: darkred;
+    color: white;
 }
 
 footer { 
@@ -122,8 +122,8 @@ footer {
     font-weight: 300 weight;
     font-style: normal;
     
-    background-color: white;
-    color: darkred;
+    background-color: darkred;
+    color: white;
     width: 100dvw;
     padding-top: 2%;
     padding-bottom: 2%;
