@@ -78,11 +78,14 @@ h2 {
     font-size: 50px;
 }
 
-p {
-   font-family: "Tourney", serif;
-   font-size: 25px; 
-   margin-left: 20%;
-
+h3 {
+    font-family: "Tourney", serif;  
+    font-weight: 300 weight;
+    font-style: normal; 
+    color: darkred;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 12px;
 }
 
 .logo {
