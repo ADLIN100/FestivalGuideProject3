@@ -25,7 +25,7 @@ header {
 
 .shop-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 10px;
     margin: 25px;
@@ -61,38 +61,22 @@ header {
     color: #E63B35;
 }
 
-.shop-products {
+.productImg {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 20px 10%;
-}
-
-.product {
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 50px;
-}
-
-.product img {
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.product p {
-    margin: 5px 0;
-    color: #444;
+    justify-content: center;
 }
 
 .price {
     font-size: 1.2rem;
     color: #E63B35;
     font-weight: bold;
+}
+
+.billboard {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {

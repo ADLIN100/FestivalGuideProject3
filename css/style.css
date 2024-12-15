@@ -141,3 +141,15 @@ img {
     padding-bottom: 15%;
     
 }
+
+.productImg {
+  margin-bottom: 15px;
+}
+
+.billboard {
+  height: 35%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
