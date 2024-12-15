@@ -11,7 +11,7 @@ body {
 
 header {
     background: darkred;
-    padding: 40px 390;
+    padding: 40px 390px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -44,27 +44,41 @@ header {
 }
 
 .nav-links a {
+    font-family: "Tourney", serif;
     font-size: 20px;
     font-weight: bold;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 35px;
     border: 2px solid burlywood;
     border-radius: 10px;
     background-color: peachpuff;
     text-transform: uppercase;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, color 0.3s ease;
-}
+  }
 
 .nav-links a:hover {
     background-color: burlywood;
     color: #E63B35;
 }
 
-.productImg {
-    display: flex;
-    justify-content: center;
+h5 {
+    font-family: "Tourney", serif;   
+    font-size: 25px;
+    color: darkred;
+    text-align: center;
+    top: 50px;
 }
+
+.productImg {
+    justify-content: center;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    padding-right: 15px;
+  }
+  
+  
 
 .price {
     font-size: 1.2rem;
@@ -73,11 +87,12 @@ header {
 }
 
 .billboard {
-    height: 30%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
-}
+    padding: 15px;
+  }
 
 .footer {
     
