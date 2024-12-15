@@ -25,10 +25,12 @@ header {
 
 .shop-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    margin: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1200px;
+    
 }
 
 .logo img {
@@ -72,6 +74,7 @@ h1 {
     text-align: center; 
     color: darkred;
     font-size: 75px;
+    margin: 30px auto;
 
 }
 
@@ -81,31 +84,44 @@ h5 {
     color: darkred;
     text-align: center;
     top: 50px;
+    margin-top: 10px; /* Adds space above product name and price */
+    font-size: 20px;
+    color: #333;
 }
 
-.productImg {
-    justify-content: center;
-    display: flex;
-    height: 50%;
-    width: 50%;
-    padding-right: 15px;
-  }
-  
-  
+.product1 {
+    width: 200px;
+    height: 200px; 
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    align-items: center; 
+}
 
-.price {
+  .product2 {
+    width: 200px;
+    height: 200px; 
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    align-items: center;  
+}
+
+.billboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 90px;
+  }
+
+  .price {
     font-size: 1.2rem;
     color: #E63B35;
     font-weight: bold;
 }
-
-.billboard {
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-  }
 
 .footer {
     
