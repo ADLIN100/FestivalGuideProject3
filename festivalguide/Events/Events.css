@@ -64,6 +64,19 @@ header {
     color:#E63B35;
   }
 
+  h1 { 
+    font-family: "Tourney", serif;  
+    font-weight: 300 weight;
+    font-style: normal;
+    margin-bottom: 50%;
+    margin-top: 65px;
+    text-align: center; 
+    color: darkred;
+    font-size: 75px;
+
+}
+
+
 h4 {
     font-size: 25px;
 }

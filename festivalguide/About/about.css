@@ -67,41 +67,45 @@ header {
 
 h1 {
     font-family: "Tourney", serif;  
-    font-weight: 300;
+    font-weight: 300 weight;
     font-style: normal;
-    color: darkred;
-    font-size: 110px;
-    position: absolute; 
-    top: 40%;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    margin-bottom: 25%;
+    margin-top: 65px;
     text-align: center; 
+    color: darkred;
+    font-size: 75px;
 }
 
 h2 {
     font-family: "Tourney", serif;  
-    font-weight: 300 weight;
-    font-style: normal; 
-    color: darkred;
-    font-size: 50px;
-}
-
-h3 {
-    font-family: "Tourney", serif;  
-    font-weight: 300 weight;
+    font-weight: 200 weight;
     font-style: normal; 
     color: darkred;
     font-size: 25px;
-    text-align: left;
-    padding-top: 12px;
+    margin-top: 10px;
+    margin-bottom: 99px;
+}
+
+.info {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px 20px;
+    margin-top: -240px; 
+}
+
+h2, p {
+    line-height: 1.6; 
+    text-align: justify;
+    margin-bottom: 20px; 
 }
 
 .sponsor {
-    width: 100;
-    height: auto;
+    width: 300px;
+    height: 300px; 
     display: block;
     margin-left: auto;
-    margin-right: 50px;      
+    margin-right: auto;
+    align-items: center;
 }
 
 .footer {
