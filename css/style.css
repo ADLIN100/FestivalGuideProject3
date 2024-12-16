@@ -50,7 +50,7 @@ header {
     font-size: 20px;
     font-weight: bold;
     color: black;
-    padding: 10px 35px;
+    padding: 10px 30px;
     border: 2px solid burlywood;
     border-radius: 10px;
     background-color: peachpuff;
@@ -117,6 +117,14 @@ h3 {
     opacity: 50;
 }
 
+img { 
+  display: block;
+  justify-content: center;
+  padding-left: 13%;
+  padding-top: 24%;
+  padding-bottom: 15%;  
+}
+
 
 .footer {
     
@@ -131,23 +139,17 @@ footer {
     
     background-color: darkred;
     color: white;
-    width: 100dvw;
+    width: 102dvw;
     padding-top: 2%;
     padding-bottom: 2%;
     word-spacing: 5px;
-    font-size: 25px;
+    font-size: 27px;
+    margin-bottom: -3%;
+    margin-left: -3%;
     text-align: center;
     display: flex; 
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-}
-
-img { 
-    display: block;
-    justify-content: center;
-    padding-left: 13%;
-    padding-top: 24%;
-    padding-bottom: 15%;  
 }
