@@ -24,20 +24,20 @@ header {
     width: 90%; 
     margin: 0 auto; 
   }
-  
-  .logo img {
-    height: 108px; 
-    width: auto;
-    margin-top: -33%;
-    margin-left: -35%;
-  
-  }
 
-  .logo {
-    position: absolute;
-    top: 10%; 
-    left: 20%; 
-    right: 20%;
+.logo img {
+  height: 106px; 
+  width: auto;
+  margin-top: -33%;
+  margin-left: -35%;
+
+}
+
+.logo {
+  position: absolute;
+  top: 7%; 
+  left: 16%; 
+  right: 45%;
 }
   
   .nav-links {

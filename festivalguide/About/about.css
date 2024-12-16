@@ -26,7 +26,7 @@ header {
 }
 
 .logo img {
-    height: 108px; 
+    height: 106px; 
     width: auto;
     margin-top: -33%;
     margin-left: -35%;
@@ -35,9 +35,9 @@ header {
 
 .logo {
     position: absolute;
-    top: 10%; 
-    left: 20%; 
-    right: 20%;
+    top: 11%; 
+    left: 19%; 
+    right: 49%;
 }
 
 .nav-links {
@@ -81,9 +81,8 @@ h2 {
     font-weight: 200 weight;
     font-style: normal; 
     color: darkred;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 10px;
-    margin-bottom: 99px;
 }
 
 .info {
@@ -103,7 +102,7 @@ h2, p {
     width: 300px;
     height: 300px; 
     display: block;
-    margin-left: auto;
+    margin-left: 650px;
     margin-right: auto;
     align-items: center;
 }

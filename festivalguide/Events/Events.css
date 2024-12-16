@@ -25,20 +25,22 @@ header {
     margin: 0 auto; 
   }
   
-  .logo img {
-    height: 108px; 
-    width: auto;
-    margin-top: -33%;
-    margin-left: -35%;
-  
-  }
+.logo img {
+  height: 106px; 
+  width: auto;
+  margin-top: -33%;
+  margin-left: -35%;
 
-  .logo {
-    position: absolute;
-    top: 10%; 
-    left: 20%; 
-    right: 20%;
 }
+
+.logo {
+  position: absolute;
+  top: 11%; 
+  left: 19%; 
+  right: 49%;
+}
+
+
   
   .nav-links {
     display: flex; 
