@@ -99,13 +99,21 @@ h2, p {
 }
 
 .sponsor {
-    width: 300px;
-    height: 300px; 
+    width: 250px;
+    height: 250px; 
     display: block;
-    margin-left: 650px;
+    margin-left: 555px;
     margin-right: auto;
+    padding-bottom: 115px;
     align-items: center;
+
 }
+
+.sponsor img {
+    width: 300px;
+    height: auto;
+}
+
 
 .footer {
     
@@ -120,7 +128,7 @@ footer {
     
     background-color: darkred;
     color: white;
-    width: 100dvw;
+    width: 105dvw;
     padding-top: 2%;
     padding-bottom: 2%;
     word-spacing: 5px;

@@ -8,6 +8,8 @@
  body {
 
        background: #B49974;
+       font-family: "Tourney", serif; 
+       line-height: 1.6;
 
 }
 
@@ -82,6 +84,56 @@ header {
 h4 {
     font-size: 25px;
 }
+
+
+h1, h3 {
+  margin: 20px auto;
+  text-align: center;
+  color: darkred;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  padding: 0 20px;
+}
+
+.speaker, .Location, .awards_ceremony {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.speaker img, .Location img, .awards_ceremony img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.speaker img:hover, .Location img:hover, .awards_ceremony img:hover {
+  transform: scale(1.05);
+}
+
+footer h4 {
+  margin: 0 10px;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #FFD700;
+}
+
 
 .footer {
     
